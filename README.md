@@ -13,12 +13,13 @@ Simular el comportamiento de la API original [dragonball-api.com](https://dragon
 - ES Modules (`type: module` en `package.json`)
 
 ## 📁 Estructura del proyecto
+```
 /express
-├── database.js # Contiene los 10 personajes
-├── app.js # Servidor Express con endpoints
+├── database.js # Contiene los 10 personajes.
+├── app.js # Servidor Express con endpoints.
 ├── package.json Dependencias y demas.
 └── package-lock.json
-
+```
 ## 📦 Instalación y ejecución
 
 1. Cloná este repositorio o descargá los archivos:
