@@ -29,14 +29,14 @@ Simular el comportamiento de la API original [dragonball-api.com](https://dragon
    ```
 2. Instalá las dependencias:
 
-```bash
-npm install express
-```
+   ```bash
+   npm install express
+   ```
 3. Iniciá el servidor:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 4. Accedé desde tu navegador o herramienta como Postman:
 http://localhost:3000/api/characters – Lista completa de personajes.
 http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
@@ -44,8 +44,8 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
 ##🔄 Endpoints disponibles
 - GET /api/characters
 - Devuelve un objeto con una lista de 10 personajes:
-```json
-{
+   ```json
+   {
   "items": [
     {
       "id": 1,
@@ -56,37 +56,37 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
     },
     ...
   ]
-}
-```
+   }
+   ```
 ### - GET /api/characters/:id
 - Devuelve un personaje específico según su ID.
 
 Casos de error:
 ID inválido (no numérico):
-```json
+   ```json
 {
   "message": "Invalid parameter: ID must be a number",
   "error": "Bad Request",
   "statusCode": 400
 }
-```
+   ```
 ID inexistente:
-```json
+   ```json
 {
   "message": "Character ID not found",
   "error": "Bad Request",
   "statusCode": 400
 }
-```
+   ```
 Ruta no existente:
-```json
+   ```json
 
 {
   "message": "No such file or directory'",
   "error": "Not Found",
   "statusCode": 404
 }
-```
+   ```
 #🤓 Waibi | Mateo Ruiz Diaz
 ##Estudiante de la Tecnicatura Superior en Desarrollo de Software Multiplataforma.
 
