@@ -87,6 +87,7 @@ Ruta no existente:
   "statusCode": 404
 }
    ```
-#🤓 Waibi | Mateo Ruiz Diaz
-##Estudiante de la Tecnicatura Superior en Desarrollo de Software Multiplataforma.
-
+#🤓 Waibi | Mateo Ruiz Diaz.
+```
+Estudiante de la Tecnicatura Superior en Desarrollo de Software Multiplataforma.
+```
