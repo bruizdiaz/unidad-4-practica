@@ -24,7 +24,7 @@ Simular el comportamiento de la API original [dragonball-api.com](https://dragon
 
 1. Cloná este repositorio o descargá los archivos:
    ```bash
-   git clone https://github.com/tu-usuario/dragonball-api-clone.git
+   git clone https://github.com/bruizdiaz/unidad-4-practica.git
    cd express
    ```
 2. Instalá las dependencias:
