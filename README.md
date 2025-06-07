@@ -21,27 +21,27 @@ Simular el comportamiento de la API original [dragonball-api.com](https://dragon
 
 ## 📦 Instalación y ejecución
 
-###1. Cloná este repositorio o descargá los archivos:
+1. Cloná este repositorio o descargá los archivos:
    ```bash
    git clone https://github.com/tu-usuario/dragonball-api-clone.git
    cd dragonball-api-clone
    ```
-###2. Instalá las dependencias:
+2. Instalá las dependencias:
 
 ```bash
 npm install express
 ```
-###3. Iniciá el servidor:
+3. Iniciá el servidor:
 
 ```bash
 npm run dev
 ```
-###4. Accedé desde tu navegador o herramienta como Postman:
+4. Accedé desde tu navegador o herramienta como Postman:
 http://localhost:3000/api/characters – Lista completa de personajes.
 http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
 
 ##🔄 Endpoints disponibles
-###- GET /api/characters
+- GET /api/characters
 - Devuelve un objeto con una lista de 10 personajes:
 ```json
 {
@@ -60,8 +60,8 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
 ### - GET /api/characters/:id
 - Devuelve un personaje específico según su ID.
 
-####Casos de error:
-#####ID inválido (no numérico):
+Casos de error:
+ID inválido (no numérico):
 ```json
 {
   "message": "Invalid parameter: ID must be a number",
@@ -69,7 +69,7 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
   "statusCode": 400
 }
 ```
-#####ID inexistente:
+ID inexistente:
 ```json
 {
   "message": "Character ID not found",
@@ -77,7 +77,7 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
   "statusCode": 400
 }
 ```
-#####Ruta no existente:
+Ruta no existente:
 ```json
 
 {
