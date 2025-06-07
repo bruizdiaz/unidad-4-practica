@@ -58,11 +58,10 @@ http://localhost:3000/api/characters/1 – Detalle de personaje por ID.
 }
 ```
 ### - GET /api/characters/:id
-Devuelve un personaje específico según su ID.
+- Devuelve un personaje específico según su ID.
 
-Casos de error:
-ID inválido (no numérico):
-
+####Casos de error:
+#####ID inválido (no numérico):
 ```json
 {
   "message": "Invalid parameter: ID must be a number",
@@ -70,8 +69,7 @@ ID inválido (no numérico):
   "statusCode": 400
 }
 ```
-ID inexistente:
-
+#####ID inexistente:
 ```json
 {
   "message": "Character ID not found",
@@ -79,8 +77,7 @@ ID inexistente:
   "statusCode": 400
 }
 ```
-Ruta no existente:
-
+#####Ruta no existente:
 ```json
 
 {
